@@ -192,7 +192,7 @@ Dosyayı İndirmek İçin: Repo İsminin Sağ Tarafındaki "Code" Tıkla. Açıl
 ---
 ## Etiketler
 
-#LinkedIn #Excel #VBA #GitHub #Automation #NoCode #LowCode #BusinessAutomation #Workflow
+`#LinkedIn` `#Excel` `#VBA` `#GitHub` `#Automation` `#NoCode` `#LowCode` `#BusinessAutomation` `#Workflow`
 
 
 ---
