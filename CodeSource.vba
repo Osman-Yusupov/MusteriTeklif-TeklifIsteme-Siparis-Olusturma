@@ -1,6 +1,6 @@
 '# VBA Kodlar
 
-'## Müşteri Teklif Oluşturma Formu Sayfa Kodları
+'## Müşteri Teklif Oluşturma Formu Sayfa Kaynak Kodları
 
 '---
 Option Explicit
@@ -111,7 +111,7 @@ End Sub
 
 '---
 
-'## Genel Müşteri Teklif Özeti Sayfa Kodları
+'## Genel Müşteri Teklif Özeti Sayfa Kaynak Kodları
 
 '---
 
@@ -340,7 +340,7 @@ End Sub
 
 '---
 
-'## Birim Bazında MüşeriTeklif Özeti Sayfa Kodları
+'## Birim Bazında MüşeriTeklif Özeti Sayfa Kaynak Kodları
 
 '---
 
@@ -565,7 +565,7 @@ End Sub
 
 '---
 
-'## Module1 - Ana Veri Çekme Kaynak Kodu
+'## Module1 - Ana Veri Çekme Kaynak Kodları
 
 '---
 
@@ -1130,7 +1130,7 @@ End Sub
 
 '---
 
-'Module2 - Ana Form Aktif Etme Kaynak Kodu
+'Module2 - Ana Form Aktif Etme Kaynak Kodları
 
 '---
 
