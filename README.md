@@ -1,8 +1,8 @@
 # 📊 VBA Destekli Gelişmiş Müşteri Teklif | Teklif İsteme | Sipariş Oluşturma Paneli
 
-## 📺Tanıtım ve Kullanım Videosu: https://lnkd.in/dPDMwbHq
+### 📺Tanıtım ve Kullanım Videosu: https://lnkd.in/dPDMwbHq
 
-## ☕😊Kahve Ismarlamak İstersen: https://www.shopier.com/osmanyusupov/42921556
+### ☕😊Kahve Ismarlamak İstersen: https://www.shopier.com/osmanyusupov/42921556
 
 
 Excel’i sadece toplama–çıkarma aracı olmaktan çıkaran,  
