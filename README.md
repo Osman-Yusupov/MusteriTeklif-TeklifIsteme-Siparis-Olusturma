@@ -187,6 +187,8 @@ Bu sistem yalnızca teklif için değildir.
 Geri bildirimler, öneriler ve katkılar **her zaman memnuniyetle karşılanır** 🙌  
 Projeyi faydalı bulduysan ⭐ vermeyi unutma 😄  
 
+Dosyayı İndirmek İçin: Repo İsminin Sağ Tarafındaki "Code" Tıkla. Açılan Pencerede "ZIP" Dosyası Mevcut Ona Tıkla 😉
+
 ---
 
 **Geliştirici:** Osman Yusupov  
