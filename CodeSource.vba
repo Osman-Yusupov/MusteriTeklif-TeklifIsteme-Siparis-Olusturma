@@ -1,3 +1,8 @@
+  '=============================================================================
+    ' PROJE: GELİŞMİŞ TEKLİF YÖNETİM SİSTEMİ (V20 - GÜVENLİ MOD + TABLO DESTEĞİ)
+  '=============================================================================
+
+
 '# VBA Kodlar
 
 '## Müşteri Teklif Oluşturma Formu Sayfa Kaynak Kodları
