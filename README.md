@@ -190,6 +190,12 @@ Projeyi faydalı bulduysan ⭐ vermeyi unutma 😄
 Dosyayı İndirmek İçin: Repo İsminin Sağ Tarafındaki "Code" Tıkla. Açılan Pencerede "ZIP" Dosyası Mevcut Ona Tıkla 😉
 
 ---
+## Etiketler
+
+#LinkedIn #Excel #VBA #GitHub #Automation #NoCode #LowCode #BusinessAutomation #Workflow
+
+
+---
 
 **Geliştirici:** Osman Yusupov  
 
