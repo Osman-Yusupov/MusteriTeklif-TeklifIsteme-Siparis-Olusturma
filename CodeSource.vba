@@ -583,7 +583,7 @@ Sub TeklifSistemi_AnaKayit()
     
     Dim wsForm As Worksheet, wsOzet As Worksheet, wsDetay As Worksheet
     Dim sonSatirOzet As Long, sonSatirDetay As Long, i As Long
-    Dim KlasorYolu As String, DosyaAdi As String, TamYol As String
+    Dim KlasorYolu As String, KlasorYolu1 As String, DosyaAdi As String, TamYol As String
     
     'Form Verileri
     Dim T_No As String, T_Musteri As String, T_Rev As String, T_Tarih As Date
@@ -847,20 +847,21 @@ Sub TeklifSistemi_AnaKayit()
     '--- OTOMATİK MASAÜSTÜ YOLU BULMA ---
     Dim wshShell As Object
     Set wshShell = CreateObject("WScript.Shell")
+    
 
     'Her kullanıcının masaüstü yolunu dinamik olarak bulur (OneDrive dahil)
-    KlasorYolu = wshShell.SpecialFolders("Desktop") & "\"
+    KlasorYolu1 = wshShell.SpecialFolders("Desktop") & "\"
     Set wshShell = Nothing 'Hafızayı temizle
     '----------------------------------------------
 
-    Dim TemizMusteri As String
-    TemizMusteri = Replace(Replace(T_Musteri, ".", ""), " ", "_")
+    Dim TemizMusteri1 As String
+    TemizMusteri1 = Replace(Replace(T_Musteri, ".", ""), " ", "_")
 
     DosyaAdi = T_No
     If YeniRevizyon <> "" Then DosyaAdi = DosyaAdi & "_" & YeniRevizyon
-    DosyaAdi = DosyaAdi & "_" & Format(T_Tarih, "dd.mm.yyyy") & "_" & TemizMusteri & ".pdf"
+    DosyaAdi = DosyaAdi & "_" & Format(T_Tarih, "dd.mm.yyyy") & "_" & TemizMusteri1 & ".pdf"
 
-    TamYol = KlasorYolu & DosyaAdi
+    TamYol = KlasorYolu1 & DosyaAdi
 
     On Error Resume Next
     wsForm.ExportAsFixedFormat Type:=xlTypePDF, Filename:=TamYol, Quality:=xlQualityStandard
@@ -1132,6 +1133,7 @@ Sub VeriYaz(Sayfa As Worksheet, Satir As Long, Baslik As String, Deger As Varian
         On Error GoTo 0
     End If
 End Sub
+
 
 '---
 
