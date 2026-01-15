@@ -577,10 +577,7 @@ End Sub
 Option Explicit
 
 Sub TeklifSistemi_AnaKayit()
-    '=============================================================================
-    ' PROJE: GELİŞMİŞ TEKLİF YÖNETİM SİSTEMİ (V20 - GÜVENLİ MOD + TABLO DESTEĞİ)
-    '=============================================================================
-    
+   
     Dim wsForm As Worksheet, wsOzet As Worksheet, wsDetay As Worksheet
     Dim sonSatirOzet As Long, sonSatirDetay As Long, i As Long
     Dim KlasorYolu As String, KlasorYolu1 As String, DosyaAdi As String, TamYol As String
